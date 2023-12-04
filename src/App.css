@@ -1,7 +1,172 @@
 * {
   margin: 0;
   padding: 0;
-  list-style-type: none !important ;
   text-decoration: none !important;
   box-sizing: border-box;
+}
+
+.mycontainer {
+  max-width: 1140px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pera_max_w {
+  max-width: 1060px;
+}
+
+.text-type {
+  list-style-type: disc;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{{{{{CryptoPunks}}}}}}}}}}}}}}}}}}}}}}}}}}}}} */
+
+.raincard {
+  max-width: 1140px;
+  padding: 33px 20px;
+  border: 2px solid #95d1cd;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.gost-2 {
+  width: 242px;
+  height: 285px;
+}
+
+.lh_120 {
+  line-height: 120%;
+}
+
+/* {{{{{{{{{{{{{{{{{{{MyAccordion}}}}}}}}}}}}}}}}}}}}} */
+.accordion_border {
+  border: 1.5px solid #212529 !important;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  border-radius: 10px;
+  backdrop-filter: blur(15px) !important;
+  width: 100%;
+}
+
+.accordion-button {
+  background-color: var(--whitesmoke-color) !important;
+  color: var(--dark-black-color) !important;
+  border-radius: 10px !important;
+  font-size: var(--fs-2xs) !important;
+}
+
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 25px !important;
+  height: 25px !important;
+  margin-left: auto;
+  margin-right: 20px;
+  content: "<";
+  background-image: url("./assets/img/svg/accordion-arrow.svg") !important;
+  background-size: cover !important;
+  transform: rotate(0deg) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  border-color: transparent !important;
+  border-radius: 10px;
+
+  box-shadow: unset !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+  transform: rotate(180deg) !important;
+}
+
+.accordion-button:focus {
+  box-shadow: none !important;
+  border-color: rgba(0, 0, 0, 0) !important;
+}
+
+.accordion-button:not(.collapsed) {
+  color: #212529;
+}
+
+/* {{{{{{{{{{{{{{{{{{MyNav}}}}}}}}}}}}}}}}}}}} */
+.logo-btn {
+  padding: 12px 20px;
+  background-color: red;
+  border: none;
+}
+
+.home-btn {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.close-btn {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.cursor {
+  cursor: pointer;
+}
+
+/* {{{{{{{{{{{{{{{{{{{{{Anticipated}}}}}}}}}}}}}}}}}}}}}}}} */
+.Anicipated-card {
+  max-width: 363px;
+  padding: 38px 0px 29px 0px;
+  border: 2px solid #95d1cd;
+  border-radius: 25px;
+  background-color: #ffffff;
+}
+
+.gost-1-img {
+  max-width: 295px;
+  max-height: 240px;
+}
+
+.grade-btn {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  padding: 9px 48px;
+  border-radius: 16px;
+}
+.position-grade-btn {
+  position: absolute;
+  top: -4%;
+}
+
+.learnmore-btn {
+  background-color: #27a099;
+  color: #ffffff;
+  border-radius: 20px;
+  padding: 6px 29px;
+  border: none;
+}
+@media (max-width: 768px) {
+  .nav_sm {
+    position: absolute;
+    top: -100%;
+    width: 100%;
+    left: 0;
+    height: 100vh;
+    background-color: #dc9393;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    transition: all 500ms linear;
+  }
+
+  .nav_show {
+    top: 0;
+  }
+
+  .overflow_hidden {
+    overflow: hidden;
+  }
 }

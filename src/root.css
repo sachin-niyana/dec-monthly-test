@@ -6,44 +6,40 @@
 
   --fs-xsm: 16px;
   --fs-xs: 18px;
+  --fs-2xs: 23px;
   --fs-sm: 24px;
   --fs-md: 30px;
   --fs-lg: 36px;
   --fs-xl: 48px;
   --fs-xxl: 50px;
 
-  --light: 300;
-  --regular: 400;
-  --medium: 500;
-  --semiBold: 600;
-  --bold: 700;
-  --extraBold: 800;
-
   --green-color: #27a099;
-  --secondary-color: #666666;
+  --dark-gray-color: #666666;
+  --gray-color: #595959;
+  --lite-gray-color: #a9a9a9;
+  --dark-black-color: #000000;
+  --black-color: #323232;
+  --lite-black-color: #333333;
+  --dark-slaty-color: #4b4b4b;
+  --slaty-color: #999999;
+  --lite-slaty-color: #8f9798;
   --white-color: #ffffff;
-  --black-color: #000000;
-  --blue-color: #595959;
-  --dark-color: #323232;
-  --dot-color: #333333;
-  --gray-color: #a9a9a9;
-  --gray-color: #999999;
-  --gray-color: #8f9798;
+  --whitesmoke-color: #fafafa;
 }
-
 .ff_Josefin_Sans {
   font-family: var(--ff-Josefin) !important;
 }
-
 .ff_Platfair_Display {
   font-family: var(--ff-Platfair) !important;
 }
-
 .fs_xsm {
   font-size: var(--fs-xsm);
 }
 .fs_xs {
   font-size: var(--fs-xs);
+}
+.fs_2xs {
+  font-size: var(--fs-2xs);
 }
 .fs_sm {
   font-size: var(--fs-sm);
@@ -60,27 +56,79 @@
 .fs_xxl {
   font-size: var(--fs-xxl);
 }
-
-.fw_light {
-  font-weight: var(--light) !important;
+.color_green {
+  color: var(--green-color);
+}
+.color_white {
+  color: var(--white-color);
+}
+.color_whitesmoke {
+  color: var(--whitesmoke-color);
+}
+.color_dark_gray {
+  color: var(--dark-gray-color);
+}
+.color_gray {
+  color: var(--gray-color);
+}
+.color_lite_gray {
+  color: var(--lite-gray-color);
+}
+.color_dark_black {
+  color: var(--dark-black-color);
+}
+.color_black {
+  color: var(--black-color);
+}
+.color_lite_black {
+  color: var(--lite-black-color);
+}
+.color_slaty {
+  color: var(--slaty-color);
+}
+.color_lite_slaty {
+  color: var(--lite-slaty-color);
+}
+.color_dark_slaty {
+  color: var(--dark-slaty-color);
+}
+.bg_color_whitesmoke {
+  background-color: var(--whitesmoke-color);
 }
 
-.fw_regular {
-  font-weight: var(--regular) !important;
+@media (max-width: 992px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-xs: 16px;
+    --fs-2xs: 20px;
+    --fs-sm: 20px;
+    --fs-md: 24px;
+    --fs-lg: 30px;
+    --fs-xl: 38px;
+    --fs-xxl: 44px;
+  }
 }
-
-.fw_medium {
-  font-weight: var(--medium) !important;
+@media (max-width: 768px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-xs: 16px;
+    --fs-2xs: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 26px;
+    --fs-xl: 34px;
+    --fs-xxl: 40px;
+  }
 }
-
-.fw_semiBold {
-  font-weight: var(--semiBold) !important;
-}
-
-.fw_bold {
-  font-weight: var(--bold) !important;
-}
-
-.fw_extraBold {
-  font-weight: var(--extraBold) !important;
+@media (max-width: 576px) {
+  :root {
+    --fs-xsm: 16px;
+    --fs-xs: 16px;
+    --fs-2xs: 18px;
+    --fs-sm: 20px;
+    --fs-md: 22px;
+    --fs-lg: 24px;
+    --fs-xl: 30px;
+    --fs-xxl: 36px;
+  }
 }
