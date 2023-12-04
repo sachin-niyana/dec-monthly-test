@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 
 const MyNav = () => {
-  const [nav, setnav] = useState(true);
+  const [nav, setnav] = useStatet(true);
   if (nav) {
     document.body.classList.remove("overflow_hidden");
   } else {
