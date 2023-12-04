@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Container } from "react-bootstrap";
 
 const MyNav = () => {
-  const [nav, setnav] = useStatet(true);
+  const [nav, setnav] = useState(true);
   if (nav) {
     document.body.classList.remove("overflow_hidden");
   } else {
@@ -36,14 +36,14 @@ const MyNav = () => {
                   service
                 </li>
                 <li className="d-md-none d-block" onClick={() => setnav(true)}>
-                  <button className="close-btn">&times;</button>
+                  <button className="close-btn">open</button>
                 </li>
               </ul>
               <button
                 className="d-md-none d-block home-btn"
                 onClick={() => setnav(false)}
               >
-                &#36067;
+                close;
               </button>
             </div>
           </nav>
