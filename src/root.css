@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&display=swap");
+
+:root {
+  --ff-Platfair: "Platfair Display", sans-serif;
+  --ff-Josefin: "Josefin Sans", sans-serif;
+
+  --fs-xsm: 16px;
+  --fs-xs: 18px;
+  --fs-sm: 24px;
+  --fs-md: 30px;
+  --fs-lg: 36px;
+  --fs-xl: 48px;
+  --fs-xxl: 50px;
+
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semiBold: 600;
+  --bold: 700;
+  --extraBold: 800;
+
+  --green-color: #27a099;
+  --secondary-color: #666666;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --blue-color: #595959;
+  --dark-color: #323232;
+  --dot-color: #333333;
+  --gray-color: #a9a9a9;
+  --gray-color: #999999;
+  --gray-color: #8f9798;
+}
+
+.ff_Josefin_Sans {
+  font-family: var(--ff-Josefin) !important;
+}
+
+.ff_Platfair_Display {
+  font-family: var(--ff-Platfair) !important;
+}
+
+.fs_xsm {
+  font-size: var(--fs-xsm);
+}
+.fs_xs {
+  font-size: var(--fs-xs);
+}
+.fs_sm {
+  font-size: var(--fs-sm);
+}
+.fs_md {
+  font-size: var(--fs-md);
+}
+.fs_lg {
+  font-size: var(--fs-lg);
+}
+.fs_xl {
+  font-size: var(--fs-xl);
+}
+.fs_xxl {
+  font-size: var(--fs-xxl);
+}
+
+.fw_light {
+  font-weight: var(--light) !important;
+}
+
+.fw_regular {
+  font-weight: var(--regular) !important;
+}
+
+.fw_medium {
+  font-weight: var(--medium) !important;
+}
+
+.fw_semiBold {
+  font-weight: var(--semiBold) !important;
+}
+
+.fw_bold {
+  font-weight: var(--bold) !important;
+}
+
+.fw_extraBold {
+  font-weight: var(--extraBold) !important;
+}
